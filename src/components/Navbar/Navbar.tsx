@@ -4,10 +4,12 @@ export default function Navbar() {
   return (
     <header>
       <nav>
-        <a>Home</a>
-        <a>Skills</a>
-        <a>Projects</a>
-        <a className="contact">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" className="contact">
+          Contact
+        </a>
       </nav>
     </header>
   );

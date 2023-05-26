@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+  font-family: "Koho";
+  font-weight: 700;
+}
+
+.page {
+  height: 100vh;
+}
+/* bold, semibold, light */
