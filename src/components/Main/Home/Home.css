@@ -3,7 +3,6 @@
   font-weight: 700;
   padding: 0px;
   margin: 0px;
-  color: #2c2c2c;
   text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2px;
 }
 
@@ -12,10 +11,20 @@
   font-size: 68px;
   padding: 0px;
   margin: 0px;
-  color: #2c2c2c;
 }
 
 #home {
   padding-left: 50px;
   padding-top: 90px;
+}
+
+.home-skill-icons {
+  display: flex;
+  padding-left: 0px;
+  gap: 0.1em;
+  align-items: center;
+}
+
+.home-skill-icons > li {
+  list-style: none;
 }

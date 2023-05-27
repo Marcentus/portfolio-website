@@ -2,6 +2,8 @@ body {
   margin: 0px;
   font-family: "Koho";
   font-weight: 700;
+  background-color: #373737;
+  color: rgb(235, 235, 235);
 }
 
 .page {
