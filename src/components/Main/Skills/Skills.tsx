@@ -10,7 +10,7 @@ export default function Skills() {
 
   const skillElements = skills.map((skill) => {
     return (
-      <li>
+      <li key={skill.name}>
         <img className="skill-icon" src={`./src/assets/${skill.img}`} />
         {skill.name}
       </li>
@@ -19,8 +19,8 @@ export default function Skills() {
 
   return (
     <section className="page" id="skills">
-      <h1>Skills</h1>
-      <ul>{skillElements}</ul>
+      <h1 className="skills-title">Skills</h1>
+      <ul className="skills-list">{skillElements}</ul>
     </section>
   );
 }
