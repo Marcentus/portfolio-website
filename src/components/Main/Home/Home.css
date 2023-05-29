@@ -18,6 +18,11 @@
   padding-top: 90px;
 }
 
+.skill-icon {
+  width: 4.8vh;
+  margin-right: 5px;
+}
+
 .home-skill-icons {
   display: flex;
   padding-left: 0px;
