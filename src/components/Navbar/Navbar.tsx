@@ -13,7 +13,7 @@ export default function Navbar() {
         >
           <img
             className="nav-icon-link"
-            src="./src/assets/github-logo.svg"
+            src="./assets/github-logo.svg"
             alt="github-link"
           />
         </a>
@@ -24,7 +24,7 @@ export default function Navbar() {
         >
           <img
             className="nav-icon-link"
-            src="./src/assets/linkedin-logo.svg"
+            src="./assets/linkedin-logo.svg"
             alt="linkedin-link"
           />
         </a>
