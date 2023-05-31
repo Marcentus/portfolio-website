@@ -6,8 +6,27 @@ export default function Navbar() {
       <nav>
         <a href="#home">Home</a>
         <a href="#projects">Projects</a>
-        <a href="#contact" className="contact">
-          Contact
+        <a
+          className="github-logo"
+          href="https://github.com/Marcentus"
+          target="_blank"
+        >
+          <img
+            className="nav-icon-link"
+            src="./src/assets/github-logo.svg"
+            alt="github-link"
+          />
+        </a>
+        <a
+          className="linkedin-logo"
+          href="https://www.linkedin.com/"
+          target="_blank"
+        >
+          <img
+            className="nav-icon-link"
+            src="./src/assets/linkedin-logo.svg"
+            alt="linkedin-link"
+          />
         </a>
       </nav>
     </header>

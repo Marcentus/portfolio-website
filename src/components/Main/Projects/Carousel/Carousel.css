@@ -1,0 +1,16 @@
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  width: 100vw;
+  overflow: hidden;
+}
+
+@media (max-width: 1040px) {
+  .carousel {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
