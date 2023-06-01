@@ -19,7 +19,7 @@ export default function ProjectCard({
       <li>
         <img
           className="card-skill-icons"
-          src={`/assets/${skillUsed.imgSrc}`}
+          src={`./assets/${skillUsed.imgSrc}`}
           alt={skillUsed.altText}
         />
       </li>
