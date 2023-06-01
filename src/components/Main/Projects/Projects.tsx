@@ -6,10 +6,10 @@ export default function Projects() {
   const showCaseProjects: CardProps[] = [
     {
       displayImage:
-        "https://user-images.githubusercontent.com/56854034/240024939-f6534491-7c54-491c-9f2a-1f9c165b3200.png",
-      projectLink: "https://github.com/Marcentus/weather-app",
-      name: "Weather App",
-      description: "Simple weather app using a weather api",
+        "https://user-images.githubusercontent.com/56854034/242626444-45dc7d0e-90f0-49ff-bc0c-641c26ac9206.png",
+      projectLink: "https://github.com/Marcentus/portfolio-website",
+      name: "My Website!",
+      description: "My portfolio website that you're viewing right now!",
       skillsUsed: [
         { altText: "TypeScript", imgSrc: "TypeScript-logo.png" },
         { altText: "HTML", imgSrc: "html-logo.png" },
@@ -29,13 +29,12 @@ export default function Projects() {
       ],
     },
     {
-      displayImage:
-        "https://user-images.githubusercontent.com/56854034/240024939-f6534491-7c54-491c-9f2a-1f9c165b3200.png",
-      projectLink: "https://github.com/Marcentus/weather-app",
-      name: "Weather App",
-      description: "Simple weather app using a weather api",
+      displayImage: "",
+      projectLink: "https://github.com/Marcentus/Calculator-App",
+      name: "Calculator App",
+      description: "Simple calculator app",
       skillsUsed: [
-        { altText: "TypeScript", imgSrc: "TypeScript-logo.png" },
+        { altText: "JavaScript", imgSrc: "JavaScript-logo.png" },
         { altText: "HTML", imgSrc: "html-logo.png" },
         { altText: "CSS", imgSrc: "css-logo.png" },
       ],
