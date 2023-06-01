@@ -12,7 +12,7 @@ export default function Home() {
   const skillElements = skills.map((skill) => {
     return (
       <li key={skill.name}>
-        <img className="skill-icon" src={`/assets/${skill.img}`} />
+        <img className="skill-icon" src={`./assets/${skill.img}`} />
       </li>
     );
   });
