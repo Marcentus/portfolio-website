@@ -18,7 +18,7 @@ export default function Projects() {
     },
     {
       displayImage:
-        "https://user-images.githubusercontent.com/56854034/240024939-f6534491-7c54-491c-9f2a-1f9c165b3200.png",
+        "https://user-images.githubusercontent.com/56854034/243207344-cb9b56a5-a23f-4464-be68-bc5aed476a2a.png",
       projectLink: "https://github.com/Marcentus/weather-app",
       name: "Weather App",
       description: "Simple weather app using a weather api",
